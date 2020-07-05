@@ -1,0 +1,43 @@
+
+<p>
+  <mat-toolbar color="primary">
+    <span>My App</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>share</mat-icon>
+    </button>
+  </mat-toolbar>
+</p>
+
+<form class="example-form">
+  <mat-form-field class="full-width">
+    <mat-label>Final Ammount</mat-label>
+    <input matInput placeholder="Ammount in Rupees" value={{FinalSum}} (keyup)="onKeyFinalAmt($event)">
+  </mat-form-field>
+
+  <mat-form-field class="full-width">
+    <mat-label>Remaining Tenure</mat-label>
+    <input matInput placeholder="In months" value={{RemainTenure}} (keyup)="onKeyTenure($event)">
+  </mat-form-field>
+
+  <mat-form-field class="full-width">
+    <mat-label>Bid Ammount</mat-label>
+    <input matInput placeholder="Sacrifice ammount on negative scale" value={{BidAmount}} (keyup)="onKeyBid($event)">
+  </mat-form-field>
+
+  <mat-form-field class="full-width">
+    <mat-label>Anual Interest Rate</mat-label>
+    <input matInput placeholder="in %" ng-model="percentage" value="{{AnualROI}}" (keyup)="onKeyROI($event)">
+  </mat-form-field>
+
+  <mat-form-field class="full-width">
+    <mat-label>Total in hand Ammount</mat-label>
+    <input matInput placeholder="Takeaway ammount in rupees" value={{InHandAmmount}} (keyup)="onKeyInHand($event)">
+  </mat-form-field>
+
+</form>
+
+
