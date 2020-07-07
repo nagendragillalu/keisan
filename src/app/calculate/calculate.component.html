@@ -5,6 +5,7 @@
     <mat-form-field class="">
       <mat-label class="">Final Ammount</mat-label>
       <input matInput placeholder="Ammount" value="{{ FinalSum}}" (keyup)="onKeyFinalAmt($event)">
+      <mat-hint align="end">Actual amount</mat-hint>
     </mat-form-field>
   </mat-card>
 </div>
@@ -28,7 +29,7 @@
 <div class="box-container">
   <mat-card>
     <mat-form-field class="">
-      <mat-label>Anual Interest Rate</mat-label>
+      <mat-label>Anual Interest Rate %</mat-label>
       <input matInput placeholder="in %" ng-model="percentage" value="{{AnualROI}}" (keyup)="onKeyROI($event)">
     </mat-form-field>
   </mat-card>
@@ -37,7 +38,7 @@
   <mat-card>
     <mat-form-field class="">
       <mat-label>Total in hand Amount</mat-label>
-      <input matInput placeholder="Takeaway ammount in rupees" value="{{InHandAmmount}}" (keyup)="onKeyInHand($event)">
+      <input matInput placeholder="Take Away ammount" value="{{InHandAmmount}}" (keyup)="onKeyInHand($event)">
     </mat-form-field>
   </mat-card>
 </div>
