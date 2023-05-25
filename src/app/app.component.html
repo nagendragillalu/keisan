@@ -35,7 +35,7 @@
       <mat-card class="card-display">
         <mat-form-field appearance="outline" class="">
           <mat-label>Bid Amount</mat-label>
-          <input matInput placeholder="Sacrifice ammount on negative scale" value="{{BidAmount| currency:'INR':'symbol':'5.0-0'}}"
+          <input matInput placeholder="Sacrifice ammount on negative scale" value="{{BidAmount}}"
             (keyup)="onKeyBid($event)">
             <mat-icon matSuffix class="animated-icon-bounce">front_hand</mat-icon>
         </mat-form-field>
@@ -54,7 +54,7 @@
       <mat-card class="card-display">
         <mat-form-field class="" appearance="outline">
           <mat-label>Total in hand Amount</mat-label>
-          <input matInput placeholder="Take Away ammount" value="{{InHandAmmount | currency:'INR':'symbol':'5.0-0'}}" (keyup)="onKeyInHand($event)">
+          <input matInput placeholder="Take Away ammount" value="{{InHandAmmount}}" (keyup)="onKeyInHand($event)">
           <mat-icon matSuffix class="animated-icon-zoom-in-out mat-primary">thumb_up</mat-icon>
         </mat-form-field>
       </mat-card>
