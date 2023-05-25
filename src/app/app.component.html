@@ -1,10 +1,17 @@
 <div class="">
   <mat-toolbar color="primary">
+    <mat-toolbar-row>
       <span>KEISAN</span>
       <span class="example-spacer"></span>
       <!-- <button mat-icon-button class="Calculate-icon" aria-label="Example icon-button with heart icon"> -->
           <mat-icon>calculate</mat-icon>
       <!-- </button> -->
+      <span class="toolbar-icon">
+
+        <mat-icon matSuffix (click)="share()">send</mat-icon>
+
+      </span>
+    </mat-toolbar-row>
   </mat-toolbar>
 </div>
 

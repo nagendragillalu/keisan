@@ -52,5 +52,28 @@ export class AppComponent implements OnInit{
     this.AnualROI = (this.BidAmount * 100)  / (this.FinalSum * (this.RemainTenure / 12))
   }
 
+  share() {
+    if (this.isWebShareSupported()) {
+      const message = `
+        <b>Following Calculations</b>
+        Total Ammount : ${this.FinalSum}
+        Remaining Instalments(Months): ${this.RemainTenure}
+        Bid Ammount: ${this.BidAmount}
+        The Annual Interest would be : ${this.AnualROI}
+        With Total in Hand ammount: ${this.InHandAmmount}
+    `;
+      navigator.share({
+        title: 'Keisan',
+        text: message,
+        url: 'https://nagendragillalu.github.io/keisan/'
+      })
+        .then(() => console.log('Shared successfully'))
+        .catch((error) => console.log('Sharing failed', error));
+    }
+  }
+  
+  isWebShareSupported(): boolean {
+    return !!navigator.share;
+  }
 
 }
