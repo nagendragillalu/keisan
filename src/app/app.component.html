@@ -15,7 +15,7 @@
       <mat-card class="card-display">
         <mat-form-field appearance="outline">
           <mat-label>Final Ammount</mat-label>
-          <input matInput placeholder="Ammount" value="{{ FinalSum| currency:'INR':'symbol':'5.0-0'}}" (keyup)="onKeyFinalAmt($event)">
+          <input matInput placeholder="Ammount" value="{{ FinalSum}}" (keyup)="onKeyFinalAmt($event)">
           <mat-icon matSuffix class="animated-icon-pulse">currency_rupee</mat-icon>
           <mat-hint align="end">Actual amount</mat-hint>
         </mat-form-field>
@@ -55,6 +55,7 @@
         <mat-form-field class="" appearance="outline">
           <mat-label>Total in hand Amount</mat-label>
           <input matInput placeholder="Take Away ammount" value="{{InHandAmmount}}" (keyup)="onKeyInHand($event)">
+          <mat-icon matSuffix class="animated-icon-pulse">currency_rupee</mat-icon>
           <mat-icon matSuffix class="animated-icon-zoom-in-out mat-primary">thumb_up</mat-icon>
         </mat-form-field>
       </mat-card>
