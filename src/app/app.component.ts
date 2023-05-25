@@ -7,7 +7,7 @@ import { CurrencyPipe  } from '@angular/common';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit{
-  title = 'keisan-pwa';
+  title = 'keisan';
   constructor(private currencyPipe: CurrencyPipe) { }
 
   FinalSum: any = 1000000;
