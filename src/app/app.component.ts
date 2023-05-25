@@ -55,12 +55,13 @@ export class AppComponent implements OnInit{
   share() {
     if (this.isWebShareSupported()) {
       const message = `
-        <b>Following Calculations</b>
-        Total Ammount : ${this.FinalSum}
-        Remaining Instalments(Months): ${this.RemainTenure}
-        Bid Ammount: ${this.BidAmount}
-        The Annual Interest would be : ${this.AnualROI}
-        With Total in Hand ammount: ${this.InHandAmmount}
+        Following Calculations done using Keisan
+
+        Total Ammount : ₹${this.FinalSum}
+        Remaining Instalments: ${this.RemainTenure} Months
+        Bid Ammount: ₹${this.BidAmount}
+        Incuring Interest: ${this.AnualROI}% PA 
+        In-Hand Ammount: ₹${this.InHandAmmount}
     `;
       navigator.share({
         title: 'Keisan',
