@@ -1,0 +1,79 @@
+{
+  "configVersion": 1,
+  "timestamp": 1685023206030,
+  "index": "/keisan/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/keisan/index.html",
+        "/keisan/main.5218bae707694535.js",
+        "/keisan/manifest.webmanifest",
+        "/keisan/polyfills.e42a2724936f7c49.js",
+        "/keisan/runtime.c573fae132b70e95.js",
+        "/keisan/styles.890c767bf084a990.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/keisan/assets/icons/icon-128x128.png",
+        "/keisan/assets/icons/icon-20x20.png",
+        "/keisan/assets/icons/icon-24x24.png",
+        "/keisan/assets/icons/icon-256x256.png",
+        "/keisan/assets/icons/icon-32x32.png",
+        "/keisan/assets/icons/icon-48x48.png",
+        "/keisan/assets/icons/icon-512x512.png",
+        "/keisan/assets/icons/icon-64x64.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/keisan/assets/icons/icon-128x128.png": "a02c470dc50ffd94ac12985059c4021de7ef45a2",
+    "/keisan/assets/icons/icon-20x20.png": "4b8ec22bac4bb56753a925a1749c006274f9987f",
+    "/keisan/assets/icons/icon-24x24.png": "17fe28ebb85692c06f51389786c0c093a83f2d35",
+    "/keisan/assets/icons/icon-256x256.png": "f840c1060efd80f9707533e47c15e39ad628496d",
+    "/keisan/assets/icons/icon-32x32.png": "339fc6d95e74b33f4010fc21d46db80f2456dc24",
+    "/keisan/assets/icons/icon-48x48.png": "55ffb96a5cf1b5923a9e33165cd9d6fe7791f4f3",
+    "/keisan/assets/icons/icon-512x512.png": "54cff464f5a057b5aeff4fc9bc5d74f863029494",
+    "/keisan/assets/icons/icon-64x64.png": "984d1138b877ea27bdd0def08fea775ff437c949",
+    "/keisan/index.html": "aab2e70266ed45943d6587753e449074ef34aa0c",
+    "/keisan/main.5218bae707694535.js": "d43577d1b084f87e3ad6ae992b147a938a448497",
+    "/keisan/manifest.webmanifest": "440b116db02f5836b8a23dfa2eff5787a17ba791",
+    "/keisan/polyfills.e42a2724936f7c49.js": "6be074e6dd7a422775ebe4981ae26dac60db6721",
+    "/keisan/runtime.c573fae132b70e95.js": "584272c972764d7745eefbe4bf1e0faff63142ad",
+    "/keisan/styles.890c767bf084a990.css": "b3c92fa9afb2668b1abaf3486456d5f993485f1d"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
