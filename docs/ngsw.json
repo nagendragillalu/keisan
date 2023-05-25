@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1685023206030,
+  "timestamp": 1685023958606,
   "index": "/keisan/index.html",
   "assetGroups": [
     {
@@ -12,10 +12,10 @@
       },
       "urls": [
         "/keisan/index.html",
-        "/keisan/main.5218bae707694535.js",
+        "/keisan/main.098ca55503d138e9.js",
         "/keisan/manifest.webmanifest",
-        "/keisan/polyfills.e42a2724936f7c49.js",
-        "/keisan/runtime.c573fae132b70e95.js",
+        "/keisan/polyfills.f83ee61d678d7e55.js",
+        "/keisan/runtime.97649cc2764ae086.js",
         "/keisan/styles.890c767bf084a990.css"
       ],
       "patterns": []
@@ -50,11 +50,11 @@
     "/keisan/assets/icons/icon-48x48.png": "55ffb96a5cf1b5923a9e33165cd9d6fe7791f4f3",
     "/keisan/assets/icons/icon-512x512.png": "54cff464f5a057b5aeff4fc9bc5d74f863029494",
     "/keisan/assets/icons/icon-64x64.png": "984d1138b877ea27bdd0def08fea775ff437c949",
-    "/keisan/index.html": "aab2e70266ed45943d6587753e449074ef34aa0c",
-    "/keisan/main.5218bae707694535.js": "d43577d1b084f87e3ad6ae992b147a938a448497",
+    "/keisan/index.html": "19731610f547516955cfaa1b989428565e35b4aa",
+    "/keisan/main.098ca55503d138e9.js": "efceceee710f152a3af888c8d5da18dc1f6220cb",
     "/keisan/manifest.webmanifest": "440b116db02f5836b8a23dfa2eff5787a17ba791",
-    "/keisan/polyfills.e42a2724936f7c49.js": "6be074e6dd7a422775ebe4981ae26dac60db6721",
-    "/keisan/runtime.c573fae132b70e95.js": "584272c972764d7745eefbe4bf1e0faff63142ad",
+    "/keisan/polyfills.f83ee61d678d7e55.js": "8efd150c98f98e91fdb19c2191db1d26e2271add",
+    "/keisan/runtime.97649cc2764ae086.js": "4086231d936af19d9d9ba841b47dbae3b488deb6",
     "/keisan/styles.890c767bf084a990.css": "b3c92fa9afb2668b1abaf3486456d5f993485f1d"
   },
   "navigationUrls": [
